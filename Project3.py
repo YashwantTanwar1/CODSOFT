@@ -6,7 +6,7 @@ def password(length):
        if (length == 0):
         return "thank you"
         break 
-       characters = string.ascii_letters + string.digits+'@'+'#'+'&'+'*'
+       characters = string.ascii_letters + string.digits + '@' + '#' + '&' + '*'
        print("Your pass is")
        return ''.join(random.choice(characters) for _ in range(length))
         
